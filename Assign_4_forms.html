@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title> Assign_4_Part_1 </title>
+
+</head>
+
+<body>
+
+<h1>Mini-Editor</h1>
+
+<p>Enter your text in the text area and then choose your styling options<br> When you are done, press "print" to output your work to a new page.
+
+</p>
+
+<form action="Assign_4_forms.php" method="post">
+
+  <label>Text Area</label>
+
+  <p> <textarea name = "textInput" cols = "60" rows = "15"> </textarea> </p>
+
+  <label>Select your font:</label>
+  <select name="font-family">
+  <option selected> sans-serif font
+  <option> serif font
+  <option> silly font
+  </select>
+  <p>
+
+  
+  <label>Select your font color:</label>
+  <select name="font-color">
+  <option selected> black
+  <option> blue
+  <option> green
+  </select>
+  <p>
+
+  
+  <label>Select your font size:</label>
+  <select name="size">
+  <option selected> normal
+  <option> large-print
+  <option> legal
+  </select>
+
+  <p> <input type="submit" value="Print">
+  
+  <input type="reset">
+
+  </p>
+
+</form>
+
+</body>
+
+</html>
+
